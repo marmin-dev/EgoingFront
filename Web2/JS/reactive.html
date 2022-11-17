@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BoxModel</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>WEB</h1>
+        <input type="button" id="btn1" onclick="changeBg()" value="night">
+        <div id="grid">
+        <div>   
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+        </div>
+        <div id="article">
+            <h2>CSS란 무엇인가?</h2>
+            <span>Cascading Style sheets</span> <a href="https://en.wikipedia.org/wiki/CSS">(CSS)</a> is a style sheet
+            language used for describing the presentation of a document written in a markup language like HTML
+        </div>
+    </div>
+    <script>
+        // function changeDK(){
+        //     document.querySelector("body").style.backgroundColor = 'black';
+        //     document.querySelector("body").style.color = 'white';
+        // }
+        // function changeDA(){
+        //     document.querySelector("body").style.backgroundColor = 'white';
+        //     document.querySelector("body").style.color = 'black';
+        // }
+            function changeBg(){
+                if(document.querySelector("body").style.backgroundColor == "white"){
+                    document.querySelector("body").style.backgroundColor = 'black';
+                    document.querySelector("body").style.color = 'white';
+                    document.querySelector("#btn1").value = "day"
+                }else{
+                    document.querySelector("body").style.backgroundColor = 'white';
+                    document.querySelector("body").style.color = 'black';
+                    document.querySelector("#btn1").value = "night"
+                }
+            }
+    </script>
+    </body>
+</html>
