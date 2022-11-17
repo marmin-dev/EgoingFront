@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+#titleN{
+    color: red;
+}
+#grid1{
+    border: 5px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+#maingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.menu1{
+    background-color: red;
+    border-right: solid 1px black;
+    text-align: center;
+}
+#menuR{
+    border: none;
+}
+#topMenu{
+    color:white;
+}
+#topMenu:hover{
+    color: gray;
+    text-decoration: solid;
+}
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#indexImage{
+;
+}
