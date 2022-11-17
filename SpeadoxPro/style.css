@@ -24,7 +24,7 @@ h1{
 #topMenu{
     color:white;
 }
-#topMenu:hover{
+#topMenu:hover, #sidemenu:hover{
     color: gray;
     text-decoration: solid;
 }
@@ -34,7 +34,17 @@ body{
 }
 a{
     text-decoration: none;
+    color:white;
 }
-#indexImage{
-;
+#grid2{
+    display: grid;
+    grid-template-columns: 150px 1fr;
 }
+.menu2{
+    padding: 50px;
+    background-color: red;
+    text-align: center;
+    border-top: solid 1px black;
+}
+
+
